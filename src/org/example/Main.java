@@ -1,12 +1,12 @@
 package org.example;
 
-import org.example.task.BetaStringBuilder;
+import org.example.task_1.StringBuilderWithUndo;
 
 public class Main {
     public static void main(String[] args) {
 
 
-        BetaStringBuilder betaStringBuilder = new BetaStringBuilder();
+        StringBuilderWithUndo betaStringBuilder = new StringBuilderWithUndo();
 
         betaStringBuilder.append("SNAP");
         betaStringBuilder.append("SHOT");
